@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caro Game</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Caro Game</h1>
+    <!-- Caro Game Board -->
+    <div id="board"></div>
+    <p id="status">Player X's turn</p>
+    <button id="reset">Reset Game</button>
+    <a href="/" class="menu-button">Back to Menu</a>
+
+    <!-- Link to the JavaScript file -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
