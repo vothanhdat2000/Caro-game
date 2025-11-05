@@ -1,6 +1,6 @@
 Caro Game
 
-Video Demo: [Your YouTube Video URL Here]
+Video Demo: https://www.youtube.com/watch?v=W1-XZnF1VbE&feature=youtu.be
 
 Description:
 Caro Game is an offline web-based game designed for two players to take turns playing on a single computer. 
@@ -64,6 +64,7 @@ Last name: Vo
 - edX Username: [VoThanhDat]
 - Location: [Ho Chi Minh city, Vietnam]
 - Date: 18 December 2024 - 18/12/2024
+
 
 
 
