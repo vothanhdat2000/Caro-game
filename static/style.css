@@ -1,0 +1,87 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f; /* Dark background for contrast */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    color: #f8f9fa;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Centering the Caro board */
+#board {
+    display: grid;
+    grid-template-columns: repeat(15, 40px);
+    grid-template-rows: repeat(15, 40px);
+    gap: 2px;
+    margin: 20px auto; /* Center horizontally */
+    border: 3px solid #444; /* Frame the board with a border */
+    background-color: #222; /* Dark background for the board */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+}
+
+/* Individual cell styling */
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #666;
+    background-color: #f8f9fa; /* Light background for cells */
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Highlight the cell when hovered */
+.cell:hover {
+    background-color: #ddd;
+}
+
+/* Style for cells marked by players */
+.cell.taken {
+    background-color: #ffa07a; /* Light orange for taken cells */
+    color: #000;
+}
+
+/* Status bar */
+#status {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #ffdd57;
+}
+
+/* Buttons styling */
+button, .menu-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .menu-button:hover {
+    background-color: #0056b3;
+}
+
+/* Back to Menu button */
+.menu-button {
+    display: inline-block;
+    margin-top: 10px;
+}
